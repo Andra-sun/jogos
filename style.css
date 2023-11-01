@@ -5,6 +5,15 @@ colors {
     background-color: #465265;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body {
     background-color: #29384d;
     color: #fff;
@@ -23,15 +32,16 @@ header {
     text-transform: uppercase;
 }
 header button {
-    margin: 40px;
+    margin-left: 0;
     width: 4rem;
     height: 4rem;
     border-radius: 1rem;
     border: none;
-    position: fixed;
-    right: 0;
-    top: 0;
     background-color: #e3f9f6;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: #e3f9f6b4;
 }
 button img {
     height: 2rem;
@@ -46,6 +56,23 @@ header h1 {
     margin-bottom: 0rem;
 }
 
+#caixaDePesquisa {
+    margin-right: 0.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: large;
+    animation: fadeIn 0.5s ease;
+}
+#achar {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 2rem;
+    padding: 0;
+    position: fixed;
+    right: 0;
+}
 nav {
     display: flex;
     flex-direction: column;

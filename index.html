@@ -12,14 +12,16 @@
                 <h1>jogos</h1>
                 <h3>que eu ja zerei</h3>
             </div>
-            <input type="text" id="pesquisa" style="display: none" />
-            <button id="pesquisaBtn">
-                <img
-                    src="https://cdn-icons-png.flaticon.com/128/2319/2319177.png"
-                    alt="lupa"
-                    srcset=""
-                />
-            </button>
+            <div id="achar">
+                <input type="text" id="caixaDePesquisa" class="fadeIn" style="display: none;"/>
+                <button id="togglePesquisa" onclick="togglePesquisa()">
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/128/2319/2319177.png"
+                        alt="lupa"
+                        srcset=""
+                    />
+                </button>
+            </div>
         </header>
         <nav>
             <h3>Jogando...</h3>
@@ -36,5 +38,6 @@
             <div id="lista-de-jogos"></div>
         </main>
         <script src="script.js"></script>
+        <script src="headerBtn.js"></script>
     </body>
 </html>
