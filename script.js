@@ -21,3 +21,21 @@ fetch("listaDosJogos.txt")
                 });
             });
     });
+
+function buscarJogo() {
+    const termo = document
+        .getElementById("caixaDePesquisa")
+        .value.toLowerCase();
+    const jogos = document.getElementsByClassName("jogo");
+
+    Array.from(jogos).forEach((jogo) => {
+        const nomeDoJogo = jogo
+            .getElementsByTagName("h2")[0]
+            .innerText.toLowerCase();
+        if (nomeDoJogo.includes(termo)) {
+            jogo.style.display = "block";
+        } else {
+            jogo.style.display = "none";
+        }
+    });
+}

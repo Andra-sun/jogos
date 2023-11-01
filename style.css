@@ -39,8 +39,9 @@ header button {
     border: none;
     background-color: #e3f9f6;
     cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-header button:hover{
+header button:hover {
     background-color: #e3f9f6b4;
 }
 button img {
@@ -108,4 +109,11 @@ section {
     width: 200px;
     text-align: center;
     display: inline-block;
+}
+.jogo img {
+    width: 8rem;
+    height: 10rem;
+}
+#voltar {
+    cursor: pointer;
 }
