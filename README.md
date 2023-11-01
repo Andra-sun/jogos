@@ -1,1 +1,1 @@
-# jogos jogados
+# jogos
