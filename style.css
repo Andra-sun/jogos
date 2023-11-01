@@ -102,17 +102,19 @@ section {
 }
 
 .jogo {
-    border: 2px solid #ccc;
+    border: px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     width: 200px;
     text-align: center;
     display: inline-block;
+    background: linear-gradient(#465265, #212e3f);
 }
 .jogo img {
     width: 8rem;
     height: 10rem;
+    border-radius: 0.2rem;
 }
 #voltar {
     cursor: pointer;
