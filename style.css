@@ -5,10 +5,10 @@ colors {
     background-color: #465265;
 }
 
-body{
+body {
     background-color: #29384d;
     color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
     padding: 15px;
     justify-content: center;
@@ -22,36 +22,36 @@ header {
     display: flex;
     text-transform: uppercase;
 }
-header button{
+header button {
     margin: 40px;
     width: 4rem;
     height: 4rem;
     border-radius: 1rem;
     border: none;
-    position:fixed;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: #e3f9f6;
 }
-button img{
+button img {
     height: 2rem;
     width: 2rem;
 }
-header h3{
+header h3 {
     font-weight: lighter;
     margin-top: 0;
 }
-header h1{
+header h1 {
     font-weight: bolder;
     margin-bottom: 0rem;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-#now{
+#now {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 10px;
@@ -62,13 +62,13 @@ nav{
     background-color: #fff3d3;
     color: #29384d;
 }
-article{
+article {
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
 }
-section{
+section {
     margin: 2rem;
     align-items: center;
 }
